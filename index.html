@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContentPilot AI</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="main-header glass">
+        <div class="logo">ContentPilot</div>
+        <nav class="nav">
+            <a class="nav-item" href="#features">المميزات</a>
+            <a class="nav-item" href="#how">كيف يعمل</a>
+            <a class="nav-item" href="#start">ابدأ الآن</a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>وكيلك الذكي لصناعة المحتوى</h1>
+            <p>
+                ContentPilot يصنع لك الفكرة، السيناريو، الفيديو، وينشره تلقائيًا على TikTok و Instagram.
+            </p>
+            <a href="#start" class="cta-btn">ابدأ الآن</a>
+        </div>
+        <div class="hero-side">
+            <div class="hero-card glass">
+                <h3>لوحة تحكم المحتوى</h3>
+                <ul>
+                    <li>أفكار مبنية على الترند</li>
+                    <li>سيناريو جاهز للتصوير أو AI</li>
+                    <li>فيديو جاهز للنشر</li>
+                    <li>نشر تلقائي على المنصات</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="section">
+        <h2>ماذا يستطيع ContentPilot أن يفعل؟</h2>
+        <p class="section-subtitle">من الفكرة إلى النشر… في مسار واحد ذكي.</p>
+
+        <div class="features-grid">
+            <div class="feature-box glass">
+                <h3>يبحث عن فكرة قوية</h3>
+                <p>تحليل الترند والمجال لاختيار أفضل فكرة تناسب جمهورك.</p>
+            </div>
+
+            <div class="feature-box glass">
+                <h3>يكتب سيناريو احترافي</h3>
+                <p>سيناريو منظم، مقسّم لمشاهد، جاهز للتصوير أو التوليد الآلي.</p>
+            </div>
+
+            <div class="feature-box glass">
+                <h3>يصنع فيديو كامل</h3>
+                <p>دمج صور، نصوص، صوت، ومؤثرات باستخدام أدوات الذكاء الاصطناعي.</p>
+            </div>
+
+            <div class="feature-box glass">
+                <h3>ينشر تلقائيًا</h3>
+                <p>جدولة ونشر الفيديو مباشرة على TikTok و Instagram.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it works -->
+    <section id="how" class="section alt">
+        <h2>كيف يعمل ContentPilot؟</h2>
+
+        <div class="steps">
+            <div class="step glass">
+                <span class="step-number">1</span>
+                <h3>أدخل نوع المحتوى والعنوان</h3>
+                <p>اختر المنصة، وحدد هدف الفيديو، والباقي على ContentPilot.</p>
+            </div>
+
+            <div class="step glass">
+                <span class="step-number">2</span>
+                <h3>الذكاء الاصطناعي يتولى الباقي</h3>
+                <p>يولّد فكرة، سيناريو، وبنية فيديو مناسبة للمنصة المختارة.</p>
+            </div>
+
+            <div class="step glass">
+                <span class="step-number">3</span>
+                <h3>إنشاء ونشر المحتوى</h3>
+                <p>يجهز الفيديو للنشر، ويقوم بالنشر التلقائي على TikTok و Instagram.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start / Form -->
+    <section id="start" class="section">
+        <h2>أنشئ محتواك الآن</h2>
+        <p class="section-subtitle">أدخل التفاصيل، ودع ContentPilot يتكفل بالباقي.</p>
+
+        <form id="contentForm" class="glass form-card">
+            <label for="type">نوع المحتوى:</label>
+            <input type="text" id="type" placeholder="مثال: محتوى تعليمي، تحفيزي، تسويقي">
+
+            <label for="title">العنوان:</label>
+            <input type="text" id="title" placeholder="اكتب عنوان الفيديو">
+
+            <label for="platform">المنصة:</label>
+            <select id="platform">
+                <option value="tiktok">TikTok</option>
+                <option value="instagram">Instagram</option>
+            </select>
+
+            <button type="submit" class="cta-btn full">إنشاء المحتوى</button>
+        </form>
+
+        <div id="result" class="result glass"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>ContentPilot &copy; <span id="year"></span> — AI Content Automation</p>
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
